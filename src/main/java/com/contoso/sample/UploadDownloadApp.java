@@ -66,10 +66,6 @@ public class UploadDownloadApp {
             stream.write(buf);
             stream.close();
 
-            // concatenate the two files into one
-            List<String> fileList = Arrays.asList("/a/b/c.txt", "/a/b/d.txt");
-            client.concatenateFiles("/a/b/f.txt", fileList);
-
             //rename the file
             client.rename("/a/b/f.txt", "/a/b/g.txt");
 

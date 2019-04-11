@@ -1,7 +1,7 @@
 ---
 services: data-lake-store
 platforms: java
-author: asikaria-msft
+author: avvarma-msft
 ---
 
 # Azure Data Lake Storage Gen1: Getting Started
